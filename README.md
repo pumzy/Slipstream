@@ -1,1 +1,1 @@
-[Link to project proposal](./Project Proposal.md)
+[Link to project proposal](./docs/README.md)
