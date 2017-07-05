@@ -32,24 +32,44 @@ Slipstream players will be able to (outside of the in-game):
 ## Wireframes
 
 Slipstream will be run on a single page, with a game window. Additionally, this page will contain links to my Linkedin and Github.
-[!Wireframe for slipstream](./slipstream-screenshot.png)
+
+![Wireframe for slipstream](./slipstream-screenshot.png)
 
 
 
 ## Architecture and Technologies
+Slipstream will be implemented using the following technologies:
+
+- JavaScript for the game logic
+- Jquery for certain button inputs (or maybe my own GrabJS library)
+- HTML5 Canvas for rendering the platforms and the graphics
+- Webpack for bundling
+- PXloader for handling my assets
+- Perhaps the Jquery sprite animation library, for direction changing
+
+The following scripts will be used in this project:
+- vehicle.js - this will keep track of the vehicle object and will be partly responsible for any collisions
+- board.js - this will be used for the board and the platform logic
+- obstacle.js - this will be used for rendering all of the obstacles
+- power-cube.js - this will be used for rendering the power cubes
 
 
 
 ### Implementation Timeline
 
-**Day 1**
+**Day 1**:
+Setup the "game window". This would include the HTML5 canvas, and the platforms. Start working on rendering the obstacles, the vehicle, and the power cubes.
 
-**Day 2**
+**Day 2**:
+Add collisions between the vehicle and the obstacles, as well as the logic for when the player falls off a platform. Add the jump functionality, as well as the double jump functionality.
 
-**Day 3**
+**Day 3**:
+Add a scoring system that will update as intended, as well as the lives system. Get sound effects. Try implement scaling speed.
 
-
-**Day 4**
 
 
 ## Bonus features
+
+- Saving high scores
+- Turbulence mode
+- Scaling difficulty
