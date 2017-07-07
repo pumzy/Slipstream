@@ -1,0 +1,26 @@
+{
+  "name": "Slipstream",
+  "version": "1.0.0",
+  "description": "[Link to project proposal](./docs/README.md)",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pumzy/Slipstream.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pumzy/Slipstream/issues"
+  },
+  "homepage": "https://github.com/pumzy/Slipstream#readme",
+  "dependencies": {
+    "pica": "^3.0.5"
+  }
+}
