@@ -8,15 +8,16 @@
 }
 
 body {
-  background-image: url("assets/images/game-background.jpg");
-  background-size: cover;
+  /*background-image: url("assets/images/game-background.gif");
+  background-size: cover;*/
+  background-color: black;
   font-family: 'Arcade-Classic', Fallback, sans-serif;
 }
 
 #canvas {
   display: block;
   margin: 5px auto;
-  border: 5px solid black;
+  border: 5px solid grey;
 }
 
 #heading {
@@ -42,3 +43,46 @@ body {
   height: 80px;
   padding: 10px;
 }
+
+#instructions-right{
+  line-height: 50px;
+  color: white;
+  word-spacing: 3px;
+  margin-top: 120px;
+  text-align: center;
+  font-size: 30px;
+  width: 400px;
+}
+
+.subheading {
+  width: 350px;
+}
+
+.whole-page {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.center {
+  width: 800px;
+  padding: 20px 50px;
+}
+
+.left{
+  color: white;
+  word-spacing: 3px;
+  margin-top: 120px;
+  text-align: center;
+  font-size: 30px;
+  width: 400px;
+}
+
+.obstacle, .powercube {
+  animation:spin 4s linear infinite;
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
