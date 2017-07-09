@@ -1,6 +1,16 @@
+
+@font-face {
+  font-family: 'Arcade-Classic';
+  src: url('./ARCADECLASSIC.ttf')  format('embedded-opentype'),
+  url('./ARCADECLASSIC.ttf')  format('woff2'),
+  url('./ARCADECLASSIC.ttf')  format('woff'),
+  url('./ARCADECLASSIC.ttf')  format('truetype');
+}
+
 body {
   background-image: url("assets/images/game-background.jpg");
   background-size: cover;
+  font-family: 'Arcade-Classic', Fallback, sans-serif;
 }
 
 #canvas {
@@ -31,9 +41,4 @@ body {
 #linkedin-image{
   height: 80px;
   padding: 10px;
-}
-
-@font-face {
-    font-family: 'Arcade-Classic';
-    src: url('../Slipsteam/ARCADECLASSIC.ttf');
 }
