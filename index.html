@@ -2,15 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase-database.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAjx4WBKRP2DxYsTRgywReDCwgxDNyE4pU",
+      databaseURL: "https://slipstream-39ecd.firebaseio.com",
+      projectId: "slipstream-39ecd",
+      storageBucket: "slipstream-39ecd.appspot.com",
+      messagingSenderId: "754364788133"
+    };
+    firebase.initializeApp(config);
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+
+
     <link rel="stylesheet" type="text/css" href="splitstream.css">
   </head>
   <body>
     <div class="whole-page">
     <div class="left">
       <h2><img class="subheading" src="assets/images/Your-Stats.png"></img></h2>
-      <div class="overview"> Username: </div>
-      <div class="spacebar"> Highscore :</div>
+      <div class="username"> Username: </div>
+      <div class="highscore"> Highscore :</div>
       <div class="getting-points"> </div>
 
 
@@ -31,9 +47,9 @@
 
     <div id="instructions-right">
       <h2><img class="subheading" src="assets/images/Instructions.png"></img></h2>
-      <div class="getting-points"> You have 5 lives </div>
+      <!-- <div class="getting-points"> You have 5 lives </div> -->
       <div class="spacebar"> Press Spacebar to Jump </div>
-      <div class="getting-points"> Collect <img class="powercube" src="assets/images/powercube_purple.png" /> </div>
+      <div class="getting-points"> Collect <img class="powercube" src="assets/images/powercube_purple.png" />  <img class="powercube" src="assets/images/powercube_white.png" />  <img class="powercube" src="assets/images/powercube_green.png" /> </div>
       <div class="getting-points"> Avoid <img class="obstacle" src="assets/images/obstacle.png" />  </div>
       <div class="spacebar"> Dont fall off! </div>
     </div>
