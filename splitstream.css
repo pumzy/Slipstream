@@ -5,7 +5,7 @@
    /*url('./ARCADECLASSIC.ttf')  format('embedded-opentype'),
   url('./ARCADECLASSIC.ttf')  format('woff2'),
   url('./ARCADECLASSIC.ttf')  format('woff'),*/
-  url('./fonts/ARCADECLASSIC.ttf')  format('truetype');
+  url('ARCADECLASSIC.ttf')  format('truetype');
 }
 
 body {
