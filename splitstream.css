@@ -1,17 +1,17 @@
 
 @font-face {
   font-family: 'Arcade-Classic';
-  src: url('./ARCADECLASSIC.ttf')  format('embedded-opentype'),
+  src:
+   /*url('./ARCADECLASSIC.ttf')  format('embedded-opentype'),
   url('./ARCADECLASSIC.ttf')  format('woff2'),
-  url('./ARCADECLASSIC.ttf')  format('woff'),
-  url('./ARCADECLASSIC.ttf')  format('truetype');
+  url('./ARCADECLASSIC.ttf')  format('woff'),*/
+  url('../Slipstream/ARCADECLASSIC.ttf')  format('truetype');
 }
 
 body {
   /*background-image: url("assets/images/game-background.gif");
   background-size: cover;*/
   background-color: black;
-
   font-family: 'Arcade-Classic', Fallback, sans-serif;
 }
 
