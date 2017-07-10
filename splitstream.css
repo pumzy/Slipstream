@@ -35,6 +35,15 @@ body {
   justify-content: center;
 }
 
+.leaderboard-list {
+  text-align: left;
+  border: 1px solid white;
+}
+
+.leaderboard-li {
+  /*border: 1px solid white;*/
+}
+
 #github-image{
   height: 80px;
   padding: 10px;
