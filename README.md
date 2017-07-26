@@ -1,5 +1,9 @@
 # Slipstream
 
+[Slipstream][website]
+
+[website]: http://www.amaar.me/Slipstream
+
 Slipstream is an arcade style infinite platformer game inspired by Vector Runner Remix. Sllipstream was built using HTML5 canvas combined with JavaScript, and features a Google Firebase backend which is used for storing scores and creating a leaderboard.
 
 ## Features and Implementation
